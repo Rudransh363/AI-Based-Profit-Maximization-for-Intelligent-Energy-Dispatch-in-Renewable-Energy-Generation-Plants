@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (raw datasets — too large for git)
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Trained models
+data/*.joblib
+data/*.pkl
+
+# Report (LaTeX build artifacts and PDF)
+report/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Claude internal
+.claude/
